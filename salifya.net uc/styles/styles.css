@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #14213D;
+  background-color: #e5e5e5;
+}
+
+a {
+  color: #14213D;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "inter", sans-serif;
+  text-transform: lowercase;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+}
+.wrapper div {
+  margin: auto;
+  padding: 0 2em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */
